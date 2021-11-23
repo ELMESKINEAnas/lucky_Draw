@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>Liste des apprenants</h1>
+
+
+<div class="tables">
+
+<div class="first">
+    <h3>Premiere liste:</h3>
+<table class="rwd-table" id="show">
+    <tr>
+        <th>Nom</th>
+        <th>Sujet de veille</th>
+    
+    </tr>
+</table>
+<button class="button" onClick="start()" type="submit">Commencer</button>
+</div>
+
+<div id="dcalc" class="container">
+    <label for="html">Nom :</label><br>
+    <input id="nom" type="text"><br>
+
+
+    <label for="html">Sujet de veille :</label><br>
+    <input id="sjt" type="text"><br>
+
+
+    <label for="html">Fixez une date svp :</label>
+    <input id="datePicker" type="date">
+
+    <button class="button" onClick="lesNoms()" type="submit" value="submit">submit</button>
+</div>
+
+<div class="second">
+
+    <H3>Resultat final :</H3>
+<table class="rwd-table" id="res">
+    <tr>
+        <th>Nom</th> 
+        <th>Sujet de Veille</th>
+        <th>Date</th>
+        
+    </tr>
+</table>
+</div>
+</div>
+
+
+
+
+    <!--script-->
+    <script src="javascript/js.js"></script>
+</body>
+</html>
